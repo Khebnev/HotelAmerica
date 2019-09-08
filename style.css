@@ -1,9 +1,11 @@
 html, body{
     width: 100%;
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 .header{
-
+/*    background-color: indigo;*/
 }
 .clearfix:after{
     content: "";
@@ -30,10 +32,109 @@ html, body{
 .menu__list-item{
     display: inline-block;
     text-transform: uppercase;
-        padding-right: 30px;
+    padding-right: 30px;
 }
 
 .menu__list-item a{
     text-decoration: none;
     color: black;
+}
+
+/*TAB SIZE*/
+@media screen and (max-width: 768px) {
+    body{
+    width: 768px;
+    }
+    header{
+/*        background: #0080ff;*/
+    }
+    .clearfix:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .wrapper{
+        width: 614px;
+        margin: 0 auto;
+    }
+    .header__logo{
+        float: left;
+    }
+    .header__logo img{
+        float: left;
+        height: 40px;
+        width: 90px;
+    }
+    .menu{
+        float: right;
+        padding-top: 20px;
+    }
+    .menu__list{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        font-size: 15px;
+    }
+    .menu__list-item{
+        display: inline-block;
+        text-transform: uppercase;
+        padding-right: 10px;
+    }
+
+    .menu__list-item a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+
+
+/*MOBILE SIZE*/
+@media screen and (max-width: 480px) {
+    body{
+    width: 480px;
+    padding: 0;
+    margin: 0;
+}
+    .header{
+/*            background: #00ff00;*/
+    }
+    .clearfix:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .wrapper{
+        width: 384px;
+        margin: 0 auto;
+    }
+    .header__logo{
+        float: left;
+    }
+    .header__logo img{
+        float: left;
+        height: 30px;
+        width: 80px;
+    }
+    .menu{
+        float: right;
+        padding-top: 15px;
+    }
+    .menu__list{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        padding-inline-start: 0;
+        font-size: 10px;
+    }
+    .menu__list-item{
+        display: inline-block;
+        text-transform: uppercase;
+        padding-right: 5px;
+    }
+
+    .menu__list-item a{
+        text-decoration: none;
+        color: black;
+    }
 }
