@@ -151,15 +151,117 @@ html, body{
     border: none;
 }
 
+/*             hotel-list         ;*/
 
+.hotel-list{
+    width: 1140px;
+    height: 1140px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 96px;
+}
 
+.hotel-list__title{
+    color: #000;
+    font: 35px Impact;
+    text-transform: uppercase;
+    text-align: center;
+}
+.hotel-list__block{
+/*    margin: 0 auto;*/
+/*    width: 1140px;*/
+}
+.hotel-list__line1{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+/*    margin: 0 auto;*/
+}
+.hotel-list__line1-item1{
+    float: left;
+    width: 352px;
+    height: 342px;
+}
+.hotel-list__line1-item2{
+    float: left;
+    width: 352px;
+    height: 342px;
+    margin: 0 40px;
+}
+.hotel-list__line1-item3{
+    float: left;
+    width: 352px;
+    height: 342px;
+}
+.hotel-list__line2{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+}
+.hotel-list__line2-item4{
+    float: left;
+    width: 352px;
+    height: 342px;
+}
+.hotel-list__line2-item5{
+    float: left;
+    width: 352px;
+    height: 342px;
+    margin: 0 40px;
+}
+.hotel-list__line2-item6{
+    float: left;
+    width: 352px;
+    height: 342px;
+}
 
+.hotel-list__line1-item_img img{
+    height: 242px;
+    width: 352px;
+}
+.hotel-list__line1-item_title{
+    font: 20px Open Sans;
+    font-weight: 700;
+    text-align: center;
+}
+.hotel-list__line1-item_text{
+    font: 16px Open Sans;
+    text-align: center;
+}
+.hotel-list__line2-item_img img{
+    height: 242px;
+    width: 352px;
+}
+.hotel-list__line2-item_title{
+    font: 20px Open Sans;
+    font-weight: 700;
+    text-align: center;
+}
+.hotel-list__line2-item_text{
+    font: 16px Open Sans;
+    text-align: center;
+}
+.hotel-list__button{
+/*
+    margin: 0 auto;
+    margin-left: 20xp;
+*/
+}
+.hotel-list__btn{
+    height: 52px;
+    width: 172px;
+    background-color: #fff;
+    border: 2px #4e26fd solid;
+    color: #4e26fd;
+    text-transform: uppercase;
+    font-weight: 600;
+    font: 24px Impact;
+    margin-left: 490px;;
+/*    margin: 0 auto;*/
 
-
-
-
-
-
+}
 
 
 
